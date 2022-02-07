@@ -7,6 +7,7 @@ In this step you'll create a new repository, and perform a push in your scratch 
 4) Perform a push in your scratch org already created.
 5) remember to set your language to English in your settings --> language.
 6) assign the permission set "GIFter" to your current user in salesforce.
+
 Ok when you complete the step 6 of Module 1, you can jump to the next section, switching to the branch "learning-git-module2", always reading the README file.
 
 # INSTRUCTIONS MODULE 2 
