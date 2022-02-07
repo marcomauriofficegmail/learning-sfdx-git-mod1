@@ -17,3 +17,18 @@ In this step you'll improve merge and deploy into an org. In this branch (learni
 4) ok, after this you can push everything to the scratch org created in the MODULE 1. Which command you will use, push or Deploy? if you need help remember to use --help of the commands to see every parameters (e.g. sfdx force:source:push --help)
 
 Ok when you complete the step 4 of Module 2, you can jump to the next section, switching to the branch "learning-git-module3", always reading the README file.
+
+# INSTRUCTIONS MODULE 3 
+In this step you'll improve conflicts with merge. In this branch (learning-git-module3), a lot of developers has performed a lot of changes and want that we perform a merge to the main branch and test togheter the new feature with the old ones.
+
+1) execute a pull from repository to be sure that we have the last changes performed from other developer.
+2) move to the branch "main" and perform also here a pull to be sure that everything is aligned.
+3) move again to the branch learning-git-module3 and perform a merge from main to learning-git-module3. merge main --> learning-git-module3, remember to use the --no-ff option.
+4) now you should see some conflicts, that you need to resolve. When is possibile, keep both version, the upcoming and the preexistent.
+5) after resolving conflicts, perform a commit to complete the merge.
+6) try to deploy everything in a new scratch org to understand if you have done wrong with the conflicts. (now you will use push command or deployment command?)
+7) if the deployment works fine, then move to the main branch and perform a merge from the branch learning-git-module3. So merge learning-git-module3 --> main, remember to use the --no-ff option.
+8) Now why in this case you don't have conflicts?
+9) ok, after this you can push everything to the scratch org created in the MODULE 1. Which command you will use, push or Deploy? if you need help remember to use --help of the commands to see every parameters (e.g. sfdx force:source:push --help)
+
+Ok, at the moment there aren't MODULE 4 & 5. You have completed the test learing-sfdx-git-module :-)
