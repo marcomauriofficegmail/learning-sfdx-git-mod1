@@ -10,6 +10,8 @@
     <label>GIFter: GIFs2Chatter</label>
     <navType>Standard</navType>
     <tabs>GIFter</tabs>
+    <tabs>module_3_page</tabs>
+    <tabs>module_2_page</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>GIFter_UtilityBar</utilityBar>
 </CustomApplication>
