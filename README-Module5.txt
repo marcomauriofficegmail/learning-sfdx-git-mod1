@@ -71,4 +71,5 @@ In this step you'll create a managed package ad deploy it in a developer edition
       - the target org wich you want to install it
       - set a wait minutes of 20
 
+if you need help, here there is a guide to create a managed package: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_workflow.htm
 good job! if the package is installed successfully (completing the step 6) you can jump to the next module, switching to the branch "learning-git-module6"
