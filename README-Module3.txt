@@ -33,4 +33,4 @@ In this step you'll improve conflicts with merge. In this branch (learing-git-mo
 8) Now why in this case you don't have conflicts?
 9) ok, after this you can push everything to the scratch org created in the MODULE 1. Which command you will use, push or Deploy? if you need help remember to use --help of the commands to see every parameters (e.g. sfdx force:source:push --help)
 
-Ok, at the moment there aren't MODULE 4 & 5. You have completed the test learing-sfdx-git-module :-)
+Ok when you complete the step 9 of Module 3, you can jump to the next section, switching to the branch "learning-git-module4". Use the file README-Module4.txt to see the instructions for the Module4.
