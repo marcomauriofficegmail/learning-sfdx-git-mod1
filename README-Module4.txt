@@ -50,4 +50,4 @@ In this step you'll create a namespace and link it with your trailhead playgroun
 if you need it, here a guide to create a namespace: https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/namespaces_creating.htm
 and here a guide to link a namespace https://developer.salesforce.com/docs/atlas.en-us.232.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_reg_namespace.htm
 
-if you have completed the step 8, you can go straight on to the next module, switching to the branch "learing-git-module5"
+if you have completed the step 8, you can go straight on to the next module, switching to the branch "learning-git-module5"
