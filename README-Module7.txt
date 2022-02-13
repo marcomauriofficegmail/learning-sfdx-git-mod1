@@ -90,7 +90,10 @@ if the package is installed successfully (completing the step 6) you can jump to
 # INSTRUCTIONS MODULE 7
 In this step you'll take metadata directly from a scratch orgs, upgrade the managed package created in the previous Module, merge it in a branch and upgrade it in the trailhead playground.
 
-1) login to the scratch org with this credentials
+1) login to the scratch org with this credentials:
+	- URL: test.salesforce.com
+	- username: test-1onud3nqcngp@example.com
+	- password: vvPhtx0l@eock
 2) retrive metadata inserted in the manifest/package.xml that is present in this branch.
 3) perform a commit and then merge this branch into the branch learning-git-module6. If there are conflics let the incoming change wins.
 4) Now upgrade the managed package following the previous module 6.

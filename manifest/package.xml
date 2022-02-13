@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>GIFter</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>GIFter</members>
+        <members>GIFter_UtilityBar</members>
+        <members>module_6_page</members>
+        <members>module_7_page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>module_6_obj__c.module_7_fields__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>testModule7</members>
+        <members>testModule7Test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>customMeta_module6.test</members>
+        <name>CustomMetadata</name>
+    </types>
+    <version>53.0</version>
+</Package>
