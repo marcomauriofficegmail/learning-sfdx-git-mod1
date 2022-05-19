@@ -5,9 +5,12 @@ public with sharing class ChatterHelper {
 
     String fileName = 'giphy.gif';
     String body = chatterText;
-    
-    Blob imageData = getImageData(imageUrl);
-
+    Blob imageData;
+    if(!Test.isRunningTest()){
+        imageData = getImageData(imageUrl);
+    } else {
+        imageData = new Blob();
+    }
     ID fileId = saveFile(fileName, imageData);
     ID postParentId = UserInfo.getUserId();
 
@@ -58,9 +61,11 @@ public with sharing class ChatterHelper {
     
     req.setMethod('GET');
     req.setCompressed( false );
-
-    HttpResponse res = new Http().send( req );
-    return res.getBodyAsBlob();
+    if(!Test.isRunningTest()){
+        HttpResponse res = new Http().send( req );
+        return res.getBodyAsBlob();
+    }
+    return null;
   }
 
 }
