@@ -12,16 +12,16 @@
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>module_6_obj__c.module_7_fields__c</members>
+        <members>module_6_obj__c.module_7_field__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>testModule7</members>
-        <members>testModule7Test</members>
+        <members>Module7</members>
+        <members>Module7Test</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>customMeta_module6.test</members>
+        <members>customMeta_module6.test7</members>
         <name>CustomMetadata</name>
     </types>
     <version>53.0</version>
