@@ -57,7 +57,11 @@ In this step you'll create a managed package ad deploy it in a developer edition
 
 1) Perform a merge from main to this branch in order to align it with the newest feature.
 2) Finishing the step 4, you have now a registered namespace. Now edit the file sfdx-project.json in the main folder in order to populate the "namespace" section with yourNamespace. e.g.: "namespace": "MY_Namespace",
-3) now create a managed package. the command is this one: sfdx force:package:version:create. Remember that you need to:
+3a) Create a managed package. The command is: sfdx force:package:create. Remember that you need to:
+      - set a unique name of the package
+      - set the package version as Managed
+      - set the path of your package (force-app)
+3b) Create a package version of your package. The command is: sfdx force:package:version:create. Remember that you need to:
       - set the definition file of your scratch org (config/project-scratch-def.json)
       - bypass the installation key requirement.
       - set a wait minutes of 20
@@ -80,8 +84,9 @@ In this step you'll upgrade the managed package created in the previous Module.
 1) Merge the branch learning-git-module5 into this branch (learning-git-module6).
 2) you could have conflicts. Accept always incoming changes.
 3) In this branch there are other metadata that should be added to the managed package. open the sfdx-project.json file in the main folder.
-4) add between versionName and versionNumber --> "ancestorVersion": "0.1.0", <-- instead of 0.1.0 you have to insert the version of the package that you want to upgrade (version generated in the step 3 of the previous Module).
-5) now repeat the step 3, 4 and 6 (you have to use the same trailhead playground of the previous module to perform an update)
+4) add between versionName and versionNumber --> "ancestorVersion": "0.1.0", <-- instead of 0.1.0 you have to insert the version of the package that you want to upgrade (version generated in the step 3b of the previous Module).
+5) now repeat the step 3, 4 and 6 of the Module 5 (you have to use the same trailhead playground of the previous module to perform an update)
 6) if you want to see the ancestry of the packages, you can use the command sfdx force:package:version:displayAncestry to see a graph of the ancestor package version
 
 if the package is installed successfully (completing the step 6) you can jump to the next module, switching to the branch "learning-git-module7"
+If you need help to understand package ancestor, here a useful link: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_package_ancestor_intro.htm
