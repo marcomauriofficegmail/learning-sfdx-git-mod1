@@ -57,7 +57,11 @@ In this step you'll create a managed package ad deploy it in a developer edition
 
 1) Perform a merge from main to this branch in order to align it with the newest feature.
 2) Finishing the step 4, you have now a registered namespace. Now edit the file sfdx-project.json in the main folder in order to populate the "namespace" section with yourNamespace. e.g.: "namespace": "MY_Namespace",
-3) now create a managed package. the command is this one: sfdx force:package:version:create. Remember that you need to:
+3a) Create a managed package. The command is: sfdx force:package:create. Remember that you need to:
+      - set a unique name of the package
+      - set the package version as Managed
+      - set the path of your package (force-app)
+3b) Create a package version of your package. The command is: sfdx force:package:version:create. Remember that you need to:
       - set the definition file of your scratch org (config/project-scratch-def.json)
       - bypass the installation key requirement.
       - set a wait minutes of 20
